@@ -1,0 +1,37 @@
+{
+  "name": "atom-codeship",
+  "main": "./lib/atom-codeship",
+  "version": "0.0.0",
+  "description": "Get notified about Codeship builds without leaving Atom.",
+  "keywords": [
+    "codeship"
+  ],
+  "repository": "https://github.com/atom/atom-codeship",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-classes": "^0.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.3",
+    "prettier-eslint-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "codeship": "^0.1.1",
+    "moment": "^2.18.1",
+    "opn": "^5.1.0"
+  }
+}
