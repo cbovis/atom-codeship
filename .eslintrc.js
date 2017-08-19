@@ -1,7 +1,10 @@
 module.exports = {
   extends: 'airbnb-base',
+  env: {
+    jest: true,
+  },
   plugins: ['import', 'classes'],
-  globals: { atom: true, document: true },
+  globals: { atom: true },
   rules: {
     'no-console': 'off',
     'classes/style': 2,
