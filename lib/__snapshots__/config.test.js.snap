@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config/schema matches expected schema 1`] = `
+Object {
+  "codeshipApiKey": Object {
+    "default": "",
+    "description": "Enter your codeship API key which can be found in the [account settings](https://app.codeship.com/user/edit).",
+    "title": "Codeship API Key",
+    "type": "string",
+  },
+  "githubUsername": Object {
+    "default": "",
+    "description": "Enter your GitHub username so that we can identify your builds.",
+    "title": "GitHub Username",
+    "type": "string",
+  },
+  "pollingInterval": Object {
+    "default": 15,
+    "description": "Enter the interval (in seconds) on which to poll the build API.",
+    "title": "Polling Interval",
+    "type": "integer",
+  },
+}
+`;
