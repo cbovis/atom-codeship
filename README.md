@@ -4,7 +4,7 @@
 
 Get notified about Codeship build failures without leaving Atom.
 
-![screenshot](docs/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/cbovis/atom-codeship/master/docs/img/screenshot.png)
 
 ## Getting Started
 Install the package and then configure your Codeship API key and Github username in the package settings.
