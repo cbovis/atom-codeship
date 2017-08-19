@@ -18,12 +18,6 @@
   "lint-staged": {
     "*.js": ["prettier-eslint --write", "git add"]
   },
-  "atomTranspilers": [
-    {
-      "glob": "**/*.js",
-      "transpiler": "atom-babel6-transpiler"
-    }
-  ],
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
@@ -38,7 +32,6 @@
     "prettier-eslint-cli": "^4.2.0"
   },
   "dependencies": {
-    "atom-babel6-transpiler": "^1.1.2",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "node-fetch": "^1.7.2",
