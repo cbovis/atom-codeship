@@ -12,7 +12,7 @@
   },
   "scripts": {
     "precommit": "lint-staged",
-    "lint": "eslint"
+    "lint": "eslint --ext .js ./"
   },
   "lint-staged": {
     "*.js": ["prettier-eslint --write", "git add"]
