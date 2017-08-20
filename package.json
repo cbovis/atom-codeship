@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Get notified about Codeship build failures without leaving Atom.",
   "keywords": ["codeship"],
-  "repository": "https://github.com/atom/atom-codeship",
+  "repository": "https://github.com/cbovis/atom-codeship",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
