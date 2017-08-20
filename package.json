@@ -1,7 +1,7 @@
 {
   "name": "atom-codeship",
   "main": "./lib/atom-codeship",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Get notified about Codeship build failures without leaving Atom.",
   "keywords": ["codeship"],
   "repository": "https://github.com/cbovis/atom-codeship",
