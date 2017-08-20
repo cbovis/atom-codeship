@@ -1,9 +1,11 @@
 {
   "name": "atom-codeship",
   "main": "./lib/atom-codeship",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get notified about Codeship build failures without leaving Atom.",
-  "keywords": ["codeship"],
+  "keywords": [
+    "codeship"
+  ],
   "repository": "https://github.com/cbovis/atom-codeship",
   "license": "MIT",
   "engines": {
@@ -18,7 +20,10 @@
     "test:production": "jest"
   },
   "lint-staged": {
-    "*.js": ["prettier-eslint --write", "git add"]
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ]
   },
   "devDependencies": {
     "husky": "^0.14.3",
