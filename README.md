@@ -9,6 +9,9 @@ Get notified about Codeship build failures without leaving Atom.
 ## Getting Started
 Install the package and then configure your Codeship API key and Github username in the package settings.
 
+## Features
+Right now the package notifies when you have broken the build, in the future I'd like to support notifications on build start and success.
+
 ## License
 
 (The MIT License)
