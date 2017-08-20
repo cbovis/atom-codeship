@@ -12,6 +12,7 @@
   },
   "scripts": {
     "precommit": "lint-staged",
+    "prepush": "jest",
     "lint": "eslint --ext .js ./",
     "test": "per-env",
     "test:development": "jest --watch",
