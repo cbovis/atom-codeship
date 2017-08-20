@@ -13,7 +13,9 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint --ext .js ./",
-    "test": "jest"
+    "test": "per-env",
+    "test:development": "jest --watch",
+    "test:production": "jest"
   },
   "lint-staged": {
     "*.js": ["prettier-eslint --write", "git add"]
@@ -35,6 +37,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "node-fetch": "^1.7.2",
-    "opn": "^5.1.0"
+    "opn": "^5.1.0",
+    "per-env": "^1.0.2"
   }
 }
