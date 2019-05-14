@@ -2,6 +2,8 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [ ![Codeship Status for cbovis/atom-codeship](https://app.codeship.com/projects/130cac00-670f-0135-6ac8-72f6a397e706/status?branch=master)](https://app.codeship.com/projects/240988)
 
+> **Note:** This extension is no longer actively maintained.
+
 Get notified about Codeship build failures without leaving Atom.
 
 ![screenshot](https://raw.githubusercontent.com/cbovis/atom-codeship/master/docs/img/screenshot.png)
